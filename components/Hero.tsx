@@ -79,10 +79,11 @@ export default function Hero() {
         >
           <div className="relative w-[300px] h-[400px] md:w-[400px] md:h-[500px]">
             <Image
-              src="https://images.unsplash.com/photo-1594385208974-2f8bb07b7a45?w=800&q=80"
+              src="/kitchenaid-mixer.png"
               alt="KitchenAid Stand Mixer"
               fill
-              className="object-contain drop-shadow-2xl"
+              className="object-cover drop-shadow-2xl rounded-3xl"
+              style={{ borderRadius: "1.5rem" }}
               priority
             />
           </div>
