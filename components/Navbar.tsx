@@ -13,7 +13,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const links = ["Products", "Colors", "Our Story", "Support"];
+  const links = ["Products", "Our Story", "Support"];
 
   return (
     <motion.nav
