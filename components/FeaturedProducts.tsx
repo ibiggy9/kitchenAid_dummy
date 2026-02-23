@@ -29,7 +29,7 @@ const products = [
     name: "2-Slice Toaster",
     price: "$129.99",
     category: "Toasters",
-    image: "https://images.unsplash.com/photo-1585237672814-8922571e4809?w=600&q=80",
+    image: "/two-slice-toaster.jpeg",
     color: "Contour Silver",
   },
 ];
