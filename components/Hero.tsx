@@ -45,7 +45,7 @@ export default function Hero() {
       {/* Content */}
       <motion.div
         style={{ y: textY, opacity }}
-        className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16"
+        className="relative z-10 max-w-7xl mx-auto px-6 pt-16 md:pt-0 flex flex-col lg:flex-row items-center gap-8 lg:gap-16"
       >
         {/* Text */}
         <div className="flex-1 text-center lg:text-left">
@@ -53,7 +53,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-flex items-center gap-2 border border-white/20 rounded-full px-4 py-1.5 mb-6"
+            className="inline-flex items-center gap-2 border border-white/20 rounded-full px-4 py-1.5 mb-4 md:mb-6"
           >
             <span className="w-2 h-2 rounded-full bg-[#C41230] animate-pulse" />
             <span className="text-white/70 text-xs tracking-widest uppercase font-medium">
@@ -65,7 +65,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.95] mb-6 tracking-tight"
+            className="text-4xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.95] mb-4 md:mb-6 tracking-tight"
           >
             Make It
             <br />
@@ -78,7 +78,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="text-lg md:text-xl text-white/60 max-w-lg mx-auto lg:mx-0 mb-10 leading-relaxed"
+            className="text-base md:text-xl text-white/60 max-w-lg mx-auto lg:mx-0 mb-6 md:mb-10 leading-relaxed"
           >
             Iconic design meets unmatched performance. Discover appliances
             built to inspire every meal you make.
@@ -111,7 +111,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-          className="flex-1 flex justify-center"
+          className="flex-1 hidden sm:flex justify-center"
         >
           <div className="relative">
             {/* Glow behind product */}
